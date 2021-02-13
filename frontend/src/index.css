@@ -31,8 +31,12 @@ h2 {
 .search__box {
   margin-left: 5rem;
 }
+.form-input {
+  padding: 10px 15px;
+}
 .search_input {
   margin: 0 10px 0 10px;
+  padding: 10px 15px;
 }
 .pagination {
   margin: 50px 0 0 0;

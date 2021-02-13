@@ -64,6 +64,7 @@ const UserEditScreen = ({ match, history }) => {
             <Form.Group controlId="name">
               <Form.Label>Name</Form.Label>
               <Form.Control
+                className="form-input"
                 type="name"
                 placeholder="Enter name"
                 value={name}
@@ -74,6 +75,7 @@ const UserEditScreen = ({ match, history }) => {
             <Form.Group controlId="email">
               <Form.Label>Email Address</Form.Label>
               <Form.Control
+                className="form-input"
                 type="email"
                 placeholder="Enter email"
                 value={email}

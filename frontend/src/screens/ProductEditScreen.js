@@ -112,6 +112,7 @@ const ProductEditScreen = ({ match, history }) => {
             <Form.Group controlId="price">
               <Form.Label>Price</Form.Label>
               <Form.Control
+                className="form-input"
                 type="number"
                 placeholder="Enter price"
                 value={price}
@@ -121,6 +122,7 @@ const ProductEditScreen = ({ match, history }) => {
             <Form.Group controlId="countInStock">
               <Form.Label>Count In Stock</Form.Label>
               <Form.Control
+                className="form-input"
                 value={countInStock}
                 type="number"
                 onChange={(e) => setCountInStock(e.target.value)}
@@ -129,6 +131,7 @@ const ProductEditScreen = ({ match, history }) => {
             <Form.Group controlId="category">
               <Form.Label>Category</Form.Label>
               <Form.Control
+                className="form-input"
                 label="Category"
                 value={category}
                 type="text"
@@ -138,6 +141,7 @@ const ProductEditScreen = ({ match, history }) => {
             <Form.Group controlId="brand">
               <Form.Label>Brand</Form.Label>
               <Form.Control
+                className="form-input"
                 label="Brand"
                 value={brand}
                 type="text"
@@ -147,6 +151,7 @@ const ProductEditScreen = ({ match, history }) => {
             <Form.Group controlId="image">
               <Form.Label>Image</Form.Label>
               <Form.Control
+                className="form-input"
                 value={image}
                 type="text"
                 onChange={(e) => setImage(e.target.value)}
@@ -162,6 +167,7 @@ const ProductEditScreen = ({ match, history }) => {
             <Form.Group controlId="description">
               <Form.Label>Description</Form.Label>
               <Form.Control
+                className="form-input"
                 value={description}
                 type="text"
                 onChange={(e) => setDescription(e.target.value)}

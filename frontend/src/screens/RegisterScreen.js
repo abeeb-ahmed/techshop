@@ -46,6 +46,7 @@ const RegisterScreen = ({ location, history }) => {
         <Form.Group controlId="name">
           <Form.Label>Name</Form.Label>
           <Form.Control
+            className="form-input"
             type="name"
             placeholder="Enter name"
             value={name}
@@ -56,6 +57,7 @@ const RegisterScreen = ({ location, history }) => {
         <Form.Group controlId="email">
           <Form.Label>Email Address</Form.Label>
           <Form.Control
+            className="form-input"
             type="email"
             placeholder="Enter email"
             value={email}
@@ -66,6 +68,7 @@ const RegisterScreen = ({ location, history }) => {
         <Form.Group controlId="password">
           <Form.Label>Password Address</Form.Label>
           <Form.Control
+            className="form-input"
             type="password"
             placeholder="Enter password"
             value={password}
@@ -76,6 +79,7 @@ const RegisterScreen = ({ location, history }) => {
         <Form.Group controlId="confirmPassword">
           <Form.Label>Confirm Password</Form.Label>
           <Form.Control
+            className="form-input"
             type="password"
             placeholder="Confirm password"
             value={confirmPassword}
