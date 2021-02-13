@@ -1,0 +1,163 @@
+main {
+  min-height: 80vh;
+}
+strong:hover {
+  text-decoration: none;
+}
+.title {
+  margin: 20px 0;
+}
+h3 {
+  padding: 1rem 0;
+}
+
+h1 {
+  font-size: 1.8rem;
+  padding: 1rem 0;
+}
+
+h2 {
+  font-size: 1.4rem;
+  padding: 0.5rem 0;
+}
+
+.header_logo:hover {
+  opacity: 0.9;
+}
+
+.rating span {
+  margin: 0.1rem;
+}
+.search__box {
+  margin-left: 5rem;
+}
+.search_input {
+  margin: 0 10px 0 10px;
+}
+.pagination {
+  margin: 50px 0 0 0;
+  justify-content: center;
+}
+.product_card:hover {
+  transform: scale(1.02);
+  box-shadow: 5px 3px 5px 0 rgba(0, 0, 0, 0.2);
+}
+.product_link:hover {
+  text-decoration: none;
+  color: lightslategray;
+}
+.blur:hover {
+  opacity: 0.8;
+}
+/* Carousel */
+.carousel-item-next,
+.carousel-item-prev,
+.carousel-item.active {
+  display: flex;
+}
+.carousel-caption {
+  position: absolute;
+  top: 0;
+}
+.carousel-caption h2 {
+  color: white;
+}
+.carousel img {
+  height: 300px;
+  padding: 30px;
+  margin: 60px auto 30px;
+  border-radius: 50%;
+}
+.carousel a {
+  margin: 0 auto;
+}
+.checkout-step {
+  margin: 30px auto 0 auto;
+  display: flex;
+}
+.checkout__item:hover {
+  transform: scale(1.05);
+}
+@media screen and (max-width: 991px) {
+  .my-3-sm {
+    margin: 10px 0;
+  }
+
+  .search__box {
+    margin: 20px 0 10px 0;
+    margin-left: 0;
+    align-items: center;
+  }
+  .search_input {
+    margin: 0 10px 0 0;
+  }
+  /* Carousel */
+  .carousel-item-next,
+  .carousel-item-prev,
+  .carousel-item.active {
+    display: flex;
+  }
+  .carousel-caption {
+    display: none;
+  }
+
+  .carousel-caption h2 {
+    color: white;
+  }
+  .carousel img {
+    height: 300px;
+    padding: 10px;
+    margin: 30px auto;
+    border-radius: 50%;
+  }
+  .carousel a {
+    margin: 0 auto;
+  }
+  .checkout-step {
+    margin: 10px auto 0 auto;
+    display: flex;
+    width: 100vw;
+  }
+}
+@media screen and (max-width: 600px) {
+  form {
+    margin-bottom: 20px;
+  }
+  h1 {
+    font-size: 1.4rem;
+    padding: 0.7rem 0;
+  }
+  h2 {
+    font-size: 1.2rem;
+    padding: 0.3rem 0;
+  }
+  h3 {
+    font-size: 1.1rem;
+    padding: 0.6rem 0;
+  }
+  .btn-light {
+    padding: 7px 8px;
+    margin: 10px 0 !important;
+  }
+  .cart_input {
+    max-width: 30%;
+  }
+  .search__box {
+    display: block;
+    margin-top: 20px;
+  }
+  .search_input {
+    max-width: 50%;
+    margin-bottom: 10px;
+    margin-left: 0;
+  }
+  .orderId {
+    display: none;
+  }
+  .title {
+    margin: 10px 0;
+  }
+  .product_btn {
+    padding: 10px 12px;
+  }
+}
