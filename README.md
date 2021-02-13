@@ -27,3 +27,16 @@ This is a fully functional e-commerce website. Frontend is powered by react, whi
 
 ### Deployed Site
  Click [Here](https://techshop-app.herokuapp.com/) to view the deployed website
+ 
+### User Login :
+
+##### Admin User
+ ```
+ email: admin@example.com
+ password: 123456
+ ```
+ ##### John Doe (Customer)
+ ```
+ email: john@example.com
+ password: 123456
+ ```
