@@ -33,7 +33,7 @@ app.use("/api/upload", uploadRoutes);
 app.use(notFound);
 app.use(errorHandler);
 
-if (process.env.NODE_ENV === production) {
+if (process.env.NODE_ENV === "production") {
   app.use(express.static(__dirname, "/frontend/build"));
 
   app.get("*", (req, res) => {
